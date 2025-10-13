@@ -2,7 +2,7 @@
 
 ## Project Context
 Built in 2023 during my time at a solar panel sales company to solve a critical 
-data visibility problem affecting 20 lead generators.
+data visibility problem affecting ~20 lead generators.
 
 ## Business Problem
 Sales team was submitting appointments but had little visibility 
