@@ -1,0 +1,63 @@
+# Sales Analytics Dashboard Configuration
+
+# Google Sheets Configuration
+google_sheets:
+  sheet_id: "1gX-t_JOv73VZVBAv_75Qv_u8GHx6CcbNNNpyAfhQ4Zk"
+  
+  worksheet_name: "Sheet1"
+  
+  credentials_path: "credentials.json"
+
+# Data Processing Configuration
+data:
+  # Number of days to include in the analysis (0 = all data)
+  days_to_include: 0
+  
+  # Column names from your Google Form 
+  columns:
+    timestamp: "Timestamp"
+    name: "Lead Generator Name"
+    doors_knocked: "Doors Knocked"
+    homeowners_talked: "Homeowners Talked"
+    qualified_leads: "Qualified Leads"
+    appointments_set: "Appointments Set"
+
+# Visualization Configuration
+visualizations:
+  output_dir: "output/charts"
+  
+  # Chart resolution 
+  dpi: 300
+  
+  figure_size: [12, 8]
+  
+  colors:
+    primary: "#2E86AB"
+    secondary: "#A23B72"
+    success: "#06A77D"
+    warning: "#F18F01"
+    danger: "#C73E1D"
+
+# Email Configuration for Automated Reports
+email:
+  enabled: true
+  
+  # SMTP server settings
+  # Gmail: smtp.gmail.com, port 587
+  # Outlook: smtp-mail.outlook.com, port 587
+  # Office365: smtp.office365.com, port 587
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  use_tls: true
+  
+  # Email credentials
+  # For Gmail: use an App Password (https://support.google.com/accounts/answer/185833)
+  # For Outlook/Office365: use your regular password or App Password
+  username: "ryanmansase@gmail.com"
+  password: "nmll urte nxpu bukx"
+  
+  # From address (can be different from username)
+  from_address: "Sales Analytics <noreply@yourcompany.com>"
+  
+  # Subject line template ({date_range} will be replaced with actual dates)
+  subject_template: "Your Monthly Sales Performance"

@@ -1,0 +1,34 @@
+# Team Roster for Automated Email Reports
+# Add or remove team members as needed
+
+team_members:
+  - name: "Jessica Martinez"
+    email: "jessica.martinez@encorsolar.com"
+    
+  - name: "Sarah Chen"
+    email: "sarah.chen@encorsolar.com"
+    
+  - name: "Marcus Johnson"
+    email: "ryanmansase@gmail.com"
+    
+  - name: "Emma Thompson"
+    email: "emma.thompson@encorsolar.com"
+    
+  - name: "Emily Rodriguez"
+    email: "emily.rodriguez@encorsolar.com"
+    
+  - name: "James Wilson"
+    email: "james.wilson@encorsolar.com"
+    
+  - name: "Ashley Brown"
+    email: "ashley.brown@encorsolar.com"
+    
+  - name: "Christopher Lee"
+    email: "christopher.lee@encorsolar.com"
+    
+  - name: "Amanda Garcia"
+    email: "amanda.garcia@encorsolar.com"
+    
+  - name: "Ryan Mitchell"
+    email: "ryan.mitchell@encorsolar.com"
+
