@@ -6,7 +6,7 @@
 [![pandas](https://img.shields.io/badge/pandas-2.0+-green.svg)](https://pandas.pydata.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-![Dashboard Preview](output/charts/sarah_chen_2025-10-12/conversion_rates.png) 
+<img src = "output/charts/sarah_chen_2025-10-12/conversion_rates.png" width="700">
 
 **Built for**: Data Analyst & Business Analyst roles  
 **Impact**: 90% user adoption • 30% increase in lead-to-appointment conversion
@@ -251,11 +251,25 @@ Check the console output for any connection errors or authentication issues.
 
 The dashboard generates 5 PNG charts for each run:
 
-1. **kpi_metrics.png**: Bar chart showing your 4 core KPIs
-2. **conversion_funnel.png**: Visual funnel showing progression through each stage
-3. **daily_trends.png**: Line chart showing daily performance over time
-4. **team_comparison.png**: Bar chart comparing your performance to team totals
-5. **conversion_rates.png**: Bar chart showing your conversion rates as percentages
+1. **kpi_metrics.png**
+   
+   <img src="output/charts/emma_thompson_2025-10-12/kpi_metrics.png" width="600" alt="KPI Metrics">
+   
+2. **conversion_funnel.png**
+ <img src="output/charts/emma_thompson_2025-10-12/conversion_funnel.png" width="600" alt="KPI Metrics">
+   
+3. **daily_trends.png**
+
+ <img src="output/charts/emma_thompson_2025-10-12/daily_trends.png" width="600" alt="KPI Metrics">
+   
+4.**team_comparison.png**
+
+ <img src="output/charts/emma_thompson_2025-10-12/team_comparison.png" width="600" alt="KPI Metrics">
+  
+5. **conversion_rates.png**
+
+<img src="output/charts/emma_thompson_2025-10-12/conversion_rates.png" width="600" alt="KPI Metrics">
+  
 
 Charts are saved to: `output/charts/[name]_[date]/`
 
