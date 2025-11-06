@@ -13,7 +13,7 @@
 
 ---
 
-A Python-based sales analytics dashboard for solar panel sales lead generators. This tool automatically pulls data from Google Forms (via Google Sheets), processes it with pandas, and generates PNG visualizations showing key performance indicators.
+A Python-based sales analytics dashboard for solar panel sales lead generators. This tool automatically pulls data from Google Forms (via Google Sheets), processes it with pandas, and generates PNG visualizations showing key performance indicators. All data in this repository has been anonymized and fabricated to protect company and client privacy.
 
 ## Features
 
@@ -389,7 +389,7 @@ For issues or questions:
 
 ## License
 
-This project is provided as-is for internal use.
+MIT
 
 ## Version
 
